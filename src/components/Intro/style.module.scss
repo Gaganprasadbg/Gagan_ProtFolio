@@ -7,10 +7,10 @@
     width: 100%;
 }
 
-@media screen and (max-width< 628px) {
+
     .content_bg {
-        background-color: rgba(0, 0, 0, 0.3);
-        backdrop-filter: blur(1px);
-        border-radius: 10px;
+      
+        backdrop-filter: blur(4px);
+       
     }
-}
+

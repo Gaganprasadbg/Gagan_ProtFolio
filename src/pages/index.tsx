@@ -12,7 +12,7 @@ export default function Home() {
     <div>
 <Introduction/>
 </div>
-<div>
+<div id='about'>
 
 <About/>
 </div>

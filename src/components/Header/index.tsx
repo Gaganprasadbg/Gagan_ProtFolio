@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { SuperMolot } from "../../styles/fonts";
 import style from "./headerstyle.module.scss";
 import Image from "next/image";
-import profileImage from "../../../public/PNG/ben-sweet-2LowviVHZ-E-unsplash.jpg";
+import profileImage from "../../../public/PNG/ben-sweet-2LowviVHZ-E-unsplash (1).jpg";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -11,7 +11,7 @@ import InfoIcon from '@mui/icons-material/Info';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact';
 import PsychologyIcon from '@mui/icons-material/Psychology';
-
+import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 
 const Header = () => {
   const [showSidebar, setShowSidebar] = useState(false);
@@ -32,13 +32,13 @@ const Header = () => {
             Gagan
           </div>
           <div
-            className="border border-10 border-solid mt-12 border-white  object-cover h-200 w-200 flex items-center justify-center md:block hidden "
-            style={{ borderRadius: "60%", overflow: "hidden" }}
+            className="border border-[5px] border-solid mt-12 border-white  object-cover h-200 w-200 flex items-center justify-center md:block hidden "
+           style={{borderRadius:"50px",overflow: 'hidden',}}
           >
             <Image
             unoptimized
               className=""
-              style={{ borderRadius: "50%", overflow: "hidden" }}
+              
               src={profileImage}
               alt={"profileImage"}
               width={200}
@@ -52,27 +52,27 @@ const Header = () => {
           </div>
           <ul>
             <li>
-              <a href="#" className="block py-2 hover:text-[#B8EFF3] flex items-center">
+              <a href="#" className="block py-2 hover:text-[#B8EFF3] flex items-center" onClick={toggleSidebar}>
               <CottageIcon className="pr-2" sx={{fontSize:"2.3rem"}}/> Home
               </a>
             </li>
             <li>
-              <a href="#" className="block py-2 hover:text-[#B8EFF3] flex items-center">
+              <a href="/#about" className="block py-2 hover:text-[#B8EFF3] flex items-center" onClick={toggleSidebar}>
                <InfoIcon className="pr-2" sx={{fontSize:"2.3rem"}}/> About
               </a>
             </li>
             <li>
-              <a href="#" className="block py-2 hover:text-[#B8EFF3] flex items-center">
+              <a href="#" className="block py-2 hover:text-[#B8EFF3] flex items-center" onClick={toggleSidebar}>
                <PsychologyIcon className="pr-2" sx={{fontSize:"2.3rem"}}/> Skills
               </a>
             </li>
             <li>
-              <a href="#" className="block py-2 hover:text-[#B8EFF3] flex items-center">
+              <a href="#" className="block py-2 hover:text-[#B8EFF3] flex items-center" onClick={toggleSidebar}>
                <AccountBoxIcon className="pr-2" sx={{fontSize:"2.3rem"}}/> Portfolio
               </a>
             </li>
             <li>
-              <a href="#" className="block py-2 hover:text-[#B8EFF3] flex items-center">
+              <a href="#" className="block py-2 hover:text-[#B8EFF3] flex items-center" onClick={toggleSidebar}>
                <ConnectWithoutContactIcon className="pr-2" sx={{fontSize:"2.3rem"}}/> Contact
               </a>
             </li>
@@ -84,7 +84,7 @@ const Header = () => {
         className={`md:hidden absolute top-5 right-5 cursor-pointer text-white`}
         onClick={toggleSidebar}
       >
-        ☰
+        <MenuOpenIcon className="hover:text-[#B8EFF3]" sx={{fontSize:"3rem"}}/>
       </div>
       {/* ------------------------------------------ Mobile device --------------------------------------- */}
     </div>
