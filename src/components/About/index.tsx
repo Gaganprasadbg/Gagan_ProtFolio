@@ -46,6 +46,9 @@ const About = () => {
                   and technology.
                 </li>
               </ul>
+              <div>
+              <a className="" href="/Gagan_B_G.pdf" download={"Gagan_CV.pdf"}><button className="cursor-pointer border-2 border-solid text-black text-xl p-2 px-4 rounded-md border-[#fff] mr-40 bg-white"> Get CV </button></a>
+              </div>
             </div>
           </div>
         </div>

@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="block py-2 hover:text-[#B8EFF3] flex items-center" onClick={toggleSidebar}>
+              <a href="/#skills" className="block py-2 hover:text-[#B8EFF3] flex items-center" onClick={toggleSidebar}>
                <PsychologyIcon className="pr-2" sx={{fontSize:"2.3rem"}}/> Skills
               </a>
             </li>
@@ -79,14 +79,12 @@ const Header = () => {
           </ul>
         </div>
       </div>
-      \
       <div
         className={`md:hidden absolute top-5 right-5 cursor-pointer text-white`}
         onClick={toggleSidebar}
       >
         <MenuOpenIcon className="hover:text-[#B8EFF3]" sx={{fontSize:"3rem"}}/>
       </div>
-      {/* ------------------------------------------ Mobile device --------------------------------------- */}
     </div>
   );
 };
