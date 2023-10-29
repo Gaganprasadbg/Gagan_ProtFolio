@@ -23,7 +23,7 @@ const Header = () => {
   return (
     <div>
       <div
-        className={`h-[100vh] w-64 ${
+        className={`h-[100vh] w-64 z-[100] ${
           style.glassy_background
         } text-white  md:block ${showSidebar ? "" : "hidden"}`}
       >
@@ -67,7 +67,7 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="block py-2 hover:text-[#B8EFF3] flex items-center" onClick={toggleSidebar}>
+              <a href="/#protfolio" className="block py-2 hover:text-[#B8EFF3] flex items-center" onClick={toggleSidebar}>
                <AccountBoxIcon className="pr-2" sx={{fontSize:"2.3rem"}}/> Portfolio
               </a>
             </li>
@@ -80,10 +80,10 @@ const Header = () => {
         </div>
       </div>
       <div
-        className={`md:hidden absolute top-5 right-5 cursor-pointer text-white`}
+        className={`md:hidden absolute top-5 right-5 cursor-pointer text-white flex`}
         onClick={toggleSidebar}
       >
-        <MenuOpenIcon className="hover:text-[#B8EFF3]" sx={{fontSize:"3rem"}}/>
+       <p>Gagan</p> <MenuOpenIcon className="hover:text-[#B8EFF3]" sx={{fontSize:"3rem"}}/>
       </div>
     </div>
   );

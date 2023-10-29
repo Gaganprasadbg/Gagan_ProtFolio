@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Introduction from "@/components/Intro";
+import Protfolio from "@/components/Protfolio";
 import Skills from "@/components/Skills";
 
 import { Inter } from "next/font/google";
@@ -17,6 +18,9 @@ export default function Home() {
       </div>
       <div id="skills">
         <Skills/>
+      </div>
+      <div id="protfolio">
+        <Protfolio/>
       </div>
     </div>
   );
