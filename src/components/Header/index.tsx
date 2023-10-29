@@ -12,6 +12,8 @@ import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact';
 import PsychologyIcon from '@mui/icons-material/Psychology';
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
+import MailIcon from '@mui/icons-material/Mail';
+import BiotechIcon from '@mui/icons-material/Biotech';
 
 const Header = () => {
   const [showSidebar, setShowSidebar] = useState(false);
@@ -49,6 +51,7 @@ const Header = () => {
             <LinkedInIcon className="cursor-pointer hover:text-[#B8EFF3]"/>
             <GitHubIcon className="cursor-pointer hover:text-[#B8EFF3]"/>
             <InstagramIcon className="cursor-pointer hover:text-[#B8EFF3]"/>
+            <MailIcon className="cursor-pointer hover:text-[#B8EFF3]"/>
           </div>
           <ul>
             <li>
@@ -67,6 +70,11 @@ const Header = () => {
               </a>
             </li>
             <li>
+              <a href="/#experience" className="block py-2 hover:text-[#B8EFF3] flex items-center" onClick={toggleSidebar}>
+               <BiotechIcon className="pr-2" sx={{fontSize:"2.3rem"}}/> Experience
+              </a>
+            </li>
+            <li>
               <a href="/#protfolio" className="block py-2 hover:text-[#B8EFF3] flex items-center" onClick={toggleSidebar}>
                <AccountBoxIcon className="pr-2" sx={{fontSize:"2.3rem"}}/> Portfolio
               </a>
@@ -76,6 +84,7 @@ const Header = () => {
                <ConnectWithoutContactIcon className="pr-2" sx={{fontSize:"2.3rem"}}/> Contact
               </a>
             </li>
+           
           </ul>
         </div>
       </div>

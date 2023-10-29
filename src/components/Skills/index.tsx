@@ -21,8 +21,8 @@ const Skills = () => {
     <div className={`${style.bg} `}>
       <div className="mx-auto mx-12  md:ml-64 text-white">
         <div className="mx-auto w-full md:max-w-[1100px] ">
-            <p className="font-bold text-2xl text-white text-center pt-6">Let's Learn What ?.. I Know</p>
-          <div className="grid grid-cols-1 md:grid-cols-2 my-12 pl-8">
+            <p className="font-bold text-2xl text-white text-center pt-6">Technology Stack ?.. I Know</p>
+          <div className="grid grid-cols-1 md:grid-cols-2  pl-8 ">
             <div className="flex gap-12 md:gap-8 p-5 flex-wrap transform transition duration-300 hover:scale-110 justify-center">
                 <Image className="transform transition duration-300 hover:scale-110" src={javascript} alt={"javascript"} height={100} width={100}/>
                 <Image className="transform transition duration-300 hover:scale-110"   src={css} alt={"css"} height={100} width={100}/>
@@ -39,7 +39,7 @@ const Skills = () => {
                 <Image className="transform transition duration-300 hover:scale-110"   src={selenium} alt={"selenium"} height={100} width={100}/>
 
             </div>
-               <div className="flex pr-5 md:pl-6 justify-center" style={{mixBlendMode:"difference"}}>
+               <div className="flex p-6 md:pl-6 justify-center" style={{mixBlendMode:"difference"}}>
                 <SkillSvg/>
                 </div>    
             </div>

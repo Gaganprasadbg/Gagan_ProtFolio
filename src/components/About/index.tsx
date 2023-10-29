@@ -6,7 +6,7 @@ import { SuperMolot } from "../../styles/fonts";
 const About = () => {
   return (
     <div className={`${style.bg} text-white `}>
-      <div className=" mx-auto max-w-[1000px] p-12">
+      <div className=" mx-auto max-w-[1200px] p-12">
         <div>
           <p className="text-white text-center font-medium text-2xl">
             About ME!!!
