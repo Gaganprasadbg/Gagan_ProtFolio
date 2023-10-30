@@ -1,15 +1,15 @@
 import React from "react";
 import style from "./style.module.scss";
 import Image from "next/image";
-import profileImage from "../../../public/PNG/ben-sweet-2LowviVHZ-E-unsplash (1).jpg";
+import profileImage from "../../../public/gagan_croped.png";
 
 const Introduction = () => {
   return (
     <div className={`${style.bg} `}>
       <div className="flex flex-col justify-center items-center  h-full">
         <div
-          className="border border-[5px] border-solid mt-12  border-white  object-cover h-200 w-200 flex items-center justify-center md:hidden "
-          style={{ borderRadius: "50px", overflow: "hidden" }}
+          className="border border-[10px] border-solid mt-12  border-black  object-cover h-[200px] w-[200px] flex items-center justify-center md:hidden "
+          style={{ borderRadius: "50%", overflow: "hidden" }}
         >
           <Image
             unoptimized

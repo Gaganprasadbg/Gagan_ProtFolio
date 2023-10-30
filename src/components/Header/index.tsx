@@ -14,6 +14,8 @@ import PsychologyIcon from '@mui/icons-material/Psychology';
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 import MailIcon from '@mui/icons-material/Mail';
 import BiotechIcon from '@mui/icons-material/Biotech';
+import gaganimage from '../../../public/gagan.png'
+
 
 const Header = () => {
   const [showSidebar, setShowSidebar] = useState(false);
@@ -34,14 +36,14 @@ const Header = () => {
             Gagan
           </div>
           <div
-            className="border border-[5px] border-solid mt-12 border-white  object-cover h-200 w-200 flex items-center justify-center md:block hidden "
-           style={{borderRadius:"50px",overflow: 'hidden',}}
+            className="border border-[10px] border-solid mt-12 border-black  object-cover h-[200px] w-[200px] flex items-center justify-center md:block hidden "
+           style={{borderRadius:"50%",overflow: 'hidden',}}
           >
             <Image
             unoptimized
               className=""
               
-              src={profileImage}
+              src={gaganimage}
               alt={"profileImage"}
               width={200}
               height={200}
