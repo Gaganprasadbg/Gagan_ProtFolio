@@ -10,16 +10,20 @@ import image1 from "../../../public/PNG/ben-sweet-2LowviVHZ-E-unsplash (1).jpg";
 import data from "../../utils/Data/index";
 import { useEffect, useState } from "react";
 import { SuperMolot, Verdana } from "../../styles/fonts";
+import { useRouter } from "next/router";
 
 export default function Protfolio() {
   const [carddata, setdata]: any[] = useState([]);
+  const router =useRouter()
 
   useEffect(() => {
     setdata(data);
   }, []);
 
   console.log(carddata, ">>>");
-
+const handellearnmore=(id:number)=>{
+  router.push(`projectdata/${id}`)
+}
   return (
     <div className={style.bg}>
       <div className="md:ml-64 ">
@@ -68,7 +72,7 @@ export default function Protfolio() {
                   </CardContent>
                 </CardActionArea>
                 <CardActions sx={{ background: "#0D0D25" }}>
-                  <Button size="small" className="text-white">
+                  <Button size="small" className="text-white" onClick={()=>handellearnmore(item.id)}>
                     Learn More
                   </Button>
                 </CardActions>
