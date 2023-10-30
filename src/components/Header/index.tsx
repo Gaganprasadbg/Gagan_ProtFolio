@@ -48,10 +48,11 @@ const Header = () => {
             />
           </div>
           <div className=" flex gap-4 my-6">
-            <LinkedInIcon className="cursor-pointer hover:text-[#B8EFF3]"/>
-            <GitHubIcon className="cursor-pointer hover:text-[#B8EFF3]"/>
-            <InstagramIcon className="cursor-pointer hover:text-[#B8EFF3]"/>
-            <MailIcon className="cursor-pointer hover:text-[#B8EFF3]"/>
+            <a href="https://www.linkedin.com/in/gagan-prasad-b-g-819a54267/" target="_blank"><LinkedInIcon className="cursor-pointer hover:text-[#B8EFF3]"/></a>
+            <a href="https://github.com/Gaganprasadbg" target="_blank"><GitHubIcon className="cursor-pointer hover:text-[#B8EFF3]"/></a>
+           <a href=""><InstagramIcon className="cursor-pointer hover:text-[#B8EFF3]"/></a>
+            <a href="mailto:gaganprasadbg@gmail.com" target="_blank"><MailIcon className="cursor-pointer hover:text-[#B8EFF3]"/></a>
+            
           </div>
           <ul>
             <li>
@@ -80,7 +81,7 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="block py-2 hover:text-[#B8EFF3] flex items-center" onClick={toggleSidebar}>
+              <a href="/#contact" className="block py-2 hover:text-[#B8EFF3] flex items-center" onClick={toggleSidebar}>
                <ConnectWithoutContactIcon className="pr-2" sx={{fontSize:"2.3rem"}}/> Contact
               </a>
             </li>
