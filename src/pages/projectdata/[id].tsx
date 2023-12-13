@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import data from "../../utils/Data/index";
 import { SuperMolot, Verdana } from "../../styles/fonts";
 import Image from "next/image";
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
 const Expedata = () => {
   const router = useRouter();
@@ -19,10 +20,18 @@ const Expedata = () => {
       }
     }
   }, [id]);
+
+  const handelBack=()=>{
+    router.back()
+  }
   
   return (
     <div className={`${style.bg}`}>
       <div className="md:ml-64 mx-auto max-w-[1100px] ">
+        <div className="cursor-pointer pl-6 pt-4" onClick={handelBack}>
+
+        <ArrowBackIcon sx={{fontSize:"3rem"}}></ArrowBackIcon>
+        </div>
         <div
           className={`font-bold text-3xl md:pt-4 pt-8 text-center text-white ${SuperMolot.className}`}
         >
