@@ -49,8 +49,8 @@ const Contact = () => {
                <ContactSvgComponent/>
             </div> 
         </div>
-        <div className={`${SuperMolot.className} font-bold text-3xl text-white text-center `}>Thank You....!!!</div>
-        <div className={`${SuperMolot.className} font-bold text-3xl text-white text-center py-2`}>Waiting....</div>
+        <div className={`${SuperMolot.className} font-bold text-3xl text-white text-center `}>Thank You For....!!!</div>
+        <div className={`${SuperMolot.className} font-bold text-3xl text-white text-center py-2`}>Your Patience....</div>
       </div>
     </div>
   )
