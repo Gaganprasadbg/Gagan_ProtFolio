@@ -66,7 +66,7 @@ const data: {
       "image": [kios1,kios2,kios3],
       "startdate": "01-05-2023",
         "enddate": "Present",
-        "role":"F E Developer",
+        "role":"F E Developer (Intern)",
         "overview":`The "Perfect Kiosk Website" project is dedicated to crafting an immersive online platform for Perfect Kiosk, a premier provider of cutting-edge kiosk solutions. With a strong emphasis on user experience, this project harnesses the power of Next.js for robust front-end development and AWS EC2 for secure hosting. The primary objective is to effectively showcase Perfect Kiosk's diverse range of kiosks designed for food vending, stores, restaurants, and cafes.`,
         "technologies":"Next.js , AWS EC2 , HTML/CSS , Typescript/JavaScript, Responsive Design ",
         "responsibilities":["Web Developers: Responsible for the overall development of the website using Next.js and AWS EC2.",

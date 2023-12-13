@@ -33,8 +33,8 @@ const Introduction = () => {
             Professional Web Developer / Front End Developer
           </p>
           <div className="flex justify-between mt-6 ">
-          <a className="" href="/Gagan_B_G.pdf" download={"Gagan_CV.pdf"}><button className="cursor-pointer border-2 border-solid text-white p-2 rounded-md border-[#B8EFF3] mr-40 bg-black"> Download CV </button></a>
-          <a href="/Gagan_B_G.pdf" target="_blank" title="Gagan_CV"><button className="border-2 border-solid text-white py-2 px-4 rounded-md border-[#B8EFF3] bg-black"> view CV </button></a>
+          <a className="" href="/Gagan_prasad.pdf" download={"Gagan_CV.pdf"}><button className="cursor-pointer border-2 border-solid text-white p-2 rounded-md border-[#B8EFF3] mr-40 bg-black"> Download CV </button></a>
+          <a href="/Gagan_prasad.pdf" target="_blank" title="Gagan_CV"><button className="border-2 border-solid text-white py-2 px-4 rounded-md border-[#B8EFF3] bg-black"> view CV </button></a>
 
         </div>
         </div>

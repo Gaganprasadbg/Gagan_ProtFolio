@@ -14,7 +14,7 @@ import PsychologyIcon from '@mui/icons-material/Psychology';
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 import MailIcon from '@mui/icons-material/Mail';
 import BiotechIcon from '@mui/icons-material/Biotech';
-import gaganimage from '../../../public/gagan.png'
+import gaganimage from '../../../public/Dp.png'
 
 
 const Header = () => {
