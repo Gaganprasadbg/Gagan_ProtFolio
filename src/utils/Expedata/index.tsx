@@ -11,7 +11,7 @@ const newData = [
         "companyname": "YOUx Design Tech PVT LTD",
         "startdate": "01-05-2023",
         "enddate": "Present",
-        "role":"F E Developer"
+        "role":"F E Developer-(Intern)"
     }
 ];
 
