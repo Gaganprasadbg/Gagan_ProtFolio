@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./style.module.scss";
 import Image from "next/image";
-import profileImage from "../../../public/gagan_croped.png";
+import profileImage from "../../../public/Dp.png";
 
 const Introduction = () => {
   return (
